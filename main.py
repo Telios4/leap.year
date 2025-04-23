@@ -8,6 +8,6 @@ def is_leap(year):
 
 
 year = int(input("Enter a year:"))
-print(is_leap(year))
+print(is_leap(year));
 
 
