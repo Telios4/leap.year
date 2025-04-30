@@ -70,7 +70,6 @@ if __name__ == "__main__":
     print(">>> Ordinary Cart Without Tax & Discount <<<")
     checkout(obj_cart)
 
-    # 2) Instantiating and Applying Discount
     """The discount_rate can be any discount of your choice"""
     disc_cart = DicountedCart(discount_rate = 0.15)
     disc_cart.add_item("Mango", 76, 6.20)
